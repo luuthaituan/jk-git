@@ -1,7 +1,8 @@
 pipeline {
     agent any
+
     stages {
-        stage('Clone') {
+        stage('clone') {
             steps {
                 git 'https://github.com/luuthaituan/jk-git.git'
             }
